@@ -1,0 +1,28 @@
+body {
+    background-color: rgba(72, 72, 152, 0.674);
+   text-align: center;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    height: 100vh;
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #f0f0f0;
+}
